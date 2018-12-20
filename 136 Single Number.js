@@ -37,3 +37,10 @@ const singleNumber = (nums) => {
 }
 
 console.log(singleNumber([4, 1, 2, 1, 2]))
+
+// const findSingleNumber = arr => {
+//   const fn = (p, c) => p + c;
+//   return 2 * [...new Set(arr)].reduce(fn, 0) - arr.reduce(fn, 0);
+// }
+
+// console.log(findSingleNumber([4, 1, 2, 1, 2]))
